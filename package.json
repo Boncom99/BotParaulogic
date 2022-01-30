@@ -1,0 +1,17 @@
+{
+  "name": "boncom-twitter-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^2.1.0",
+    "node-schedule": "^2.1.0",
+    "puppeteer": "^13.1.1",
+    "twit-thread": "^2.1.0"
+  }
+}
