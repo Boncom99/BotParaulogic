@@ -56,7 +56,7 @@ async function Tweet(Solutions) {
 		Post.push(aux);
 	}
 	console.log(Post);
-	await T.tweetThread(Post);
+	//await T.tweetThread(Post);
 }
 async function getSolutions() {
 	const puppeteer = require("puppeteer");
@@ -81,12 +81,3 @@ async function getSolutions() {
 	browser.close();
 }
 getSolutions();
-/*rule.tz = "Europe/Madrid";
-rule.second = 0;
-rule.minute = 20;
-rule.hour = 01;
-const job = schedule.scheduleJob(rule, () => {
-	getSolutions();
-});
-job.schedule();
-*/
